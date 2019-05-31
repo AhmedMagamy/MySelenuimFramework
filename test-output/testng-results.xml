@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27841" started-at="2019-05-31T13:56:30Z" finished-at="2019-05-31T13:56:58Z">
+  <suite name="Default suite" duration-ms="25787" started-at="2019-05-31T14:17:58Z" finished-at="2019-05-31T14:18:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27841" started-at="2019-05-31T13:56:30Z" finished-at="2019-05-31T13:56:58Z">
+    <test name="Default test" duration-ms="25787" started-at="2019-05-31T14:17:58Z" finished-at="2019-05-31T14:18:24Z">
       <class name="automationpracticewebsiteTests.SigninPageTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:automationpracticewebsiteTests.SigninPageTests@dd8ba08]" name="setUp" is-config="true" duration-ms="4270" started-at="2019-05-31T13:56:30Z" finished-at="2019-05-31T13:56:35Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automationpracticewebsiteTests.SigninPageTests@dd8ba08]" name="setUp" is-config="true" duration-ms="4802" started-at="2019-05-31T14:17:58Z" finished-at="2019-05-31T14:18:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTests(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:automationpracticewebsiteTests.SigninPageTests@dd8ba08]" name="loginTests" duration-ms="14969" started-at="2019-05-31T13:56:35Z" data-provider="logindata" finished-at="2019-05-31T13:56:50Z">
+        <test-method status="PASS" signature="loginTests(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:automationpracticewebsiteTests.SigninPageTests@dd8ba08]" name="loginTests" duration-ms="15374" started-at="2019-05-31T14:18:03Z" data-provider="logindata" finished-at="2019-05-31T14:18:18Z">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTests -->
-        <test-method status="PASS" signature="loginTests(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:automationpracticewebsiteTests.SigninPageTests@dd8ba08]" name="loginTests" duration-ms="3188" started-at="2019-05-31T13:56:50Z" data-provider="logindata" finished-at="2019-05-31T13:56:53Z">
+        <test-method status="PASS" signature="loginTests(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:automationpracticewebsiteTests.SigninPageTests@dd8ba08]" name="loginTests" duration-ms="2553" started-at="2019-05-31T14:18:18Z" data-provider="logindata" finished-at="2019-05-31T14:18:21Z">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTests -->
-        <test-method status="PASS" signature="loginTests(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:automationpracticewebsiteTests.SigninPageTests@dd8ba08]" name="loginTests" duration-ms="2828" started-at="2019-05-31T13:56:53Z" data-provider="logindata" finished-at="2019-05-31T13:56:56Z">
+        <test-method status="PASS" signature="loginTests(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:automationpracticewebsiteTests.SigninPageTests@dd8ba08]" name="loginTests" duration-ms="2798" started-at="2019-05-31T14:18:21Z" data-provider="logindata" finished-at="2019-05-31T14:18:24Z">
           <params>
             <param index="0">
               <value>
@@ -74,7 +74,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTests -->
-        <test-method status="PASS" signature="end()[pri:0, instance:automationpracticewebsiteTests.SigninPageTests@dd8ba08]" name="end" is-config="true" duration-ms="2414" started-at="2019-05-31T13:56:56Z" finished-at="2019-05-31T13:56:58Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:automationpracticewebsiteTests.SigninPageTests@dd8ba08]" name="end" is-config="true" duration-ms="64" started-at="2019-05-31T14:18:24Z" finished-at="2019-05-31T14:18:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->

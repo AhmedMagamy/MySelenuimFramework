@@ -71,13 +71,7 @@ public class SigninPageTests extends Base{
 	@DataProvider
 	public Object[][] logindata(){
 		Object[][] logindata = new Object [3][3] ;
-
-
-		for (int row = 0; row < logindata.length; row++) {
-			for (int col = 0; col < logindata[row].length; col++) {
-				logindata[row][col] = excel.getCellDataString("login", row, col);
-			}
-		}
+		excel.fillarrayfromeexcel(logindata, "login");
 		return logindata ;
 	}
 	

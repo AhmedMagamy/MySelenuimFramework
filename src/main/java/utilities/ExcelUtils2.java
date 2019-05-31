@@ -29,7 +29,6 @@ public class ExcelUtils2 {
 			
 			path = System.getProperty("user.dir") +"\\Excel\\"+filename ; 
 			fis = new FileInputStream(path);
-
 			//step 1 create refrances of workbook (object )
 			workbook = new XSSFWorkbook(fis) ; 
 			//XSSFWorkbook workbook = new XSSFWorkbook("E:\\study\\java\\my java workspace\\Automation\\SeleniumJavaFramework\\Excel\\data.xlsx") ; 
@@ -153,4 +152,17 @@ public class ExcelUtils2 {
 		return cellData;
 
 	}
+	
+	
+	public void fillarrayfromeexcel(Object[][] arr ,String sheetname)
+	{
+		for (int row = 0; row < arr.length; row++) {
+			for (int col = 0; col < arr[row].length; col++) {
+				arr[row][col] = this.getCellDataString(sheetname, row, col);
+			}
+		}
+	}
+	
+	
+	
 }
