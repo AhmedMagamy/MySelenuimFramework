@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\ahmed\AppData\Local\Temp\testng-eclipse--1479019789\testng-customsuite.xml</span>
+                    <span>C:\Users\ahmed\AppData\Local\Temp\testng-eclipse-1364518363\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="automationpracticewebsiteTests.SigninPageTests" hash-for-method="login">login</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="automationpracticewebsiteTests.SigninPageTests" hash-for-method="loginTests(test500@test.com, 123456789, valid)">loginTests(test500@test.com, 123456789, valid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="automationpracticewebsiteTests.SigninPageTests" hash-for-method="loginTests(ahmed, ahmed, invalidusernameandpassword)">loginTests(ahmed, ahmed, invalidusernameandpassword)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="automationpracticewebsiteTests.SigninPageTests" hash-for-method="loginTests(test500@test.com, ahmed, validusernameivalidpassword)">loginTests(test500@test.com, ahmed, validusernameivalidpassword)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -125,9 +135,26 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
-                  <span class="method-name">login</span>
+                  <a name="loginTests(test500@test.com, 123456789, valid)">
+                  </a> <!-- loginTests(test500@test.com, 123456789, valid) -->
+                  <span class="method-name">loginTests</span>
+                  <span class="parameters">(test500@test.com, 123456789, valid)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTests(ahmed, ahmed, invalidusernameandpassword)">
+                  </a> <!-- loginTests(ahmed, ahmed, invalidusernameandpassword) -->
+                  <span class="method-name">loginTests</span>
+                  <span class="parameters">(ahmed, ahmed, invalidusernameandpassword)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTests(test500@test.com, ahmed, validusernameivalidpassword)">
+                  </a> <!-- loginTests(test500@test.com, ahmed, validusernameivalidpassword) -->
+                  <span class="method-name">loginTests</span>
+                  <span class="parameters">(test500@test.com, ahmed, validusernameivalidpassword)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -135,7 +162,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\ahmed\AppData\Local\Temp\testng-eclipse--1479019789\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\ahmed\AppData\Local\Temp\testng-eclipse-1364518363\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -184,16 +211,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'login')
+data.setCell(0, 1, 'loginTests')
 data.setCell(0, 2, 'automationpracticewebsiteTests.SigninPageTests')
-data.setCell(0, 3, 10905);
+data.setCell(0, 3, 14969);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginTests')
+data.setCell(1, 2, 'automationpracticewebsiteTests.SigninPageTests')
+data.setCell(1, 3, 3188);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginTests')
+data.setCell(2, 2, 'automationpracticewebsiteTests.SigninPageTests')
+data.setCell(2, 3, 2828);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -225,12 +260,20 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">login</span>
-                <span class="method-start">4065 ms</span>
+                <span class="method-name">loginTests(test500@test.com, 123456789, valid)</span>
+                <span class="method-start">4291 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTests(ahmed, ahmed, invalidusernameandpassword)</span>
+                <span class="method-start">19268 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTests(test500@test.com, ahmed, validusernameivalidpassword)</span>
+                <span class="method-start">22457 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">end</span>
-                <span class="method-start">14979 ms</span>
+                <span class="method-start">25287 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

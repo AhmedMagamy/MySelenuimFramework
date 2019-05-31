@@ -23,11 +23,11 @@ public class ExcelUtils2 {
 	
 	
 	//Constructor
-	public 	ExcelUtils2 (String path2ndPart)
+	public 	ExcelUtils2 (String filename)
 	{
 		try{
 			
-			path = System.getProperty("user.dir") +path2ndPart ; 
+			path = System.getProperty("user.dir") +"\\Excel\\"+filename ; 
 			fis = new FileInputStream(path);
 
 			//step 1 create refrances of workbook (object )

@@ -6,7 +6,7 @@
       <class name="automationpracticewebsiteTests.SigninPageTests">
         <methods>
           <include name="setUp"/>
-          <include name="login"/>
+          <include name="loginTests" invocation-numbers="1"/>
           <include name="end"/>
         </methods>
       </class> <!-- automationpracticewebsiteTests.SigninPageTests -->
